@@ -1,3 +1,10 @@
+body {
+  background: #d9b7e4;
+}
+
+a {
+  color: #8d3bb3;
+}
 .App-header {
   margin: 30px 0;
   text-align: center;
