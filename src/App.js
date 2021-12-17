@@ -28,7 +28,11 @@ function App() {
               rel="noreferrer"
             >
               open-sourced on GitHub
-            </a>
+            </a>{" "}
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/011/418/original/b3d67fb045323dea1e59cc09991d3c1e.gif?1624469159"
+              alt="minnieCoder"
+            />
           </small>
         </footer>
       </div>

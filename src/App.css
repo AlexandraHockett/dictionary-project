@@ -1,5 +1,12 @@
 body {
-  background: #d9b7e4;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
 }
 
 a {
@@ -10,12 +17,27 @@ a {
   margin: 0 auto;
 }
 .App-header {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: rgb(73, 19, 73);
   margin: 30px 0;
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
+  text-shadow: -1px 1px 2px rgb(122, 39, 115), 1px 1px 2px rgb(85, 62, 78),
+    1px -1px 0 #000, -1px -1px 0 rgb(241, 235, 235);
 }
 
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+
+.App-footer a:hover {
+  color: rgb(30, 4, 51);
+}
+
+.App-footer img {
+  width: 40px;
 }
